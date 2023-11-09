@@ -1,0 +1,235 @@
+:root {
+  /* Primary colors */
+  --primary-color-white: #ffffff;
+  --primary-color-blue: #2b7fff;
+  --primary-color-dark: #011c44;
+  --secondary-color-yelow: #ffd02b;
+  --secondary-color-blue: #011f4a;
+  --secondary-color-gray-light: #747272;
+  --secondary-color-gray-dark: #4a4a4a;
+}
+
+body {
+  color: var(--primary-color-dark);
+  font-family: myFirstFont;
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3694px;
+}
+
+ul {
+  list-style: none;
+}
+/* Header */
+/* Nav header  - розібратися з кольором посилання*/
+.navigation-list .li {
+  color: var(--primary-color-dark);
+}
+
+h5 {
+  color: var(--primary-color-dark);
+}
+
+h1 {
+  color: var(--primary-color-blue);
+  margin-left: 244;
+  font-family: mySecondFont;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px;
+  text-transform: capitalize;
+}
+
+.button-call-back,
+.button-in-list {
+  background-color: var(--primary-color-blue);
+  color: var(--primary-color-white);
+  border-radius: 32px;
+  border: 2px solid var(--primary-color-blue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 16px 32px;
+  display: flex;
+  margin-left: 244;
+  margin-top: 40px;
+  gap: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.button-call-back:hover {
+  color: var(--primary-color-dark);
+  background-color: transparent;
+}
+
+/* Section 1 */
+h2 {
+  color: var(--primary-color-dark);
+  font-family: mySecondFont;
+  width: 529px;
+  height: 148px;
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 100;
+}
+
+.style-h2 {
+  color: var(--primary-color-blue);
+}
+.section1-text {
+  color: var(--primary-color-dark);
+  font-family: myFirstFont;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  margin-left: 100;
+  width: 709px;
+}
+
+.section1-text1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Section2 */
+
+.section2-title {
+  text-align: center;
+  width: 432px;
+  height: 148px;
+  margin-top: 375px;
+  margin-bottom: 48px;
+  margin-left: 504px;
+  margin-right: 504px;
+}
+
+.section2-blocks {
+  flex-direction: row;
+  display: flex;
+}
+
+.advantages-left,
+.advantages-center,
+.advantages-right {
+  border-radius: 32px;
+  background: var(--primary-color-white);
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+  width: 316px;
+  height: 181px;
+  display: flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.advantages-left {
+  margin-left: 190px;
+  margin-right: 56px;
+}
+
+.advantages-center {
+  margin-right: 56px;
+}
+
+.advantages-right {
+  margin-right: 190px;
+}
+
+.icone-advantages {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.section2-text {
+  text-align: center;
+  width: 252px;
+}
+
+/* Section 3 */
+
+.section3-title {
+  text-align: center;
+  width: 510px;
+  height: 74px;
+  margin-left: 465px;
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.arrow {
+  border-style: none;
+  border-color: var(--primary-color-white);
+  color: var(--primary-color-white);
+  background-color: var(--primary-color-white);
+  cursor: pointer;
+}
+
+.arrow:hover {
+}
+
+.procedure-left {
+  margin-left: 188px;
+}
+
+.procedure-center {
+  margin-left: 16px;
+}
+.procedure-left {
+  margin-right: 16px;
+}
+.dots {
+  flex-direction: row;
+  margin-left: 700px;
+  margin-top: 32px;
+}
+
+/* Section 4 adress */
+.section4-title {
+  text-align: center;
+  width: 423px;
+  height: 481px;
+  margin-left: 465px;
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.adress {
+  flex-direction: row;
+}
+
+h4 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.accept-conditions {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* Footer */
+.text-footer {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-property {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
