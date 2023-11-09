@@ -20,6 +20,20 @@ body {
 ul {
   list-style: none;
 }
+
+.styles-links {
+  color: var(--primary-color-dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.styles-links:hover {
+  color: var(--primary-color-blue);
+}
+
 /* Header */
 /* Nav header  - розібратися з кольором посилання*/
 .navigation-list .li {
@@ -28,6 +42,10 @@ ul {
 
 h5 {
   color: var(--primary-color-dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 h1 {
